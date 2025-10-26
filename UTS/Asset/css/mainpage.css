@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-color: #4a90e2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  color: white;
+}
+
+.ikon {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  
+}
+
+.ikon img {
+  margin-right: 10%;
+}
+
+
+main {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card {
+  background-color: white;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  border: black solid 1px;
+}
+
+.card h3 {
+  margin-bottom: 15px;
+}
+
+.form-input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 2%;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 6px;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+select {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid black;
+    border-radius: 12px;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.btn-tambah {
+  margin-top: 3%;
+  justify-self: start;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 6px 15px;
+  cursor: pointer;
+}
+
+.empty-text {
+  color: #555;
+  text-align: center;
+  padding: 30px 0;
+}
+
+body {
+  background-color: white;
+}
+
+.tabel-barang {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+}
+
+.tabel-barang th,
+.tabel-barang td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+
+
+.logout-container {
+  display: flex;
+  align-items: center;
+}
+
+.logout-btn {
+  background-color: white;
+  color: #222;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 8px 18px;
+  cursor: pointer;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.logout-btn:hover {
+  background-color: #f3f3f3;
+}
