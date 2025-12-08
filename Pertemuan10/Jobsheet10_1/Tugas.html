@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pengenalan Bootstrap</title>
+    <!-- Menyisipkan Bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!--Menyisipkan Javascript-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="jumbotron mb-0">
+      <h1>Belajar bootstrap</h1>
+      <p>
+        Bootstrap adalah framework untuk membuat responsif website menggunakan
+        HTML, CSS dan JS
+      </p>
+    </div>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <h3>convenience store</h3>
+      <div class="row row-cols-3">
+        <div class="col">
+          <img src="store1.jpg" class="img-thumbnail" />
+        </div>
+        <div class="col">
+          <img src="store2.jpg" class="img-thumbnail" />
+        </div>
+        <div class="col">
+          <img src="store3.jpg" class="img-thumbnail" />
+        </div>
+      </div>
+
+      <p>
+        Convenience store adalah toko ritel kecil yang menyediakan berbagai
+        produk kebutuhan sehari-hari, seperti makanan, minuman, dan kebutuhan
+        pokok lainnya, dengan jam operasional yang panjang dan lokasi yang
+        strategis. Ciri utamanya adalah kemudahan akses dan kecepatan transaksi,
+        dengan banyak yang juga menyediakan area duduk untuk konsumsi di tempat
+        dan bahkan buka 24 jam. Contohnya di Indonesia adalah Indomaret,
+        Alfamart, FamilyMart, dan Circle K.
+      </p>
+
+      <div class="container-fluid">
+        <h2>Berbagai convenience store dari beberapa negara</h2>
+        <table class="table table-bordered table-striped table-hover">
+          <tr>
+            <th>No.</th>
+            <th>Asal Negara</th>
+            <th>Nama convenience store</th>
+          </tr>
+          <tr>
+            <td>1.</td>
+            <td>Indonesia</td>
+            <td>Indomaret</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Indonesia</td>
+            <td>Alfamart</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>Amerika Serikat</td>
+            <td>7-Eleven</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>Jepang</td>
+            <td>FamilyMart</td>
+          </tr>
+          <tr>
+            <td>5.</td>
+            <td>Jepang</td>
+            <td>Lawson</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
